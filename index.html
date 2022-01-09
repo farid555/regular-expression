@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Submit Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Submit Form</h2>
+        </div>
+        <form class="form" id="form" novalidate>
+            <div class="form-control">
+                <label>User Name</label><input type="text" name="userName" placeholder="Username" id="username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>Email</label><input type="email" name="email" placeholder="example@gmail.com" id="email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>Phone</label><input type="number" name="number" placeholder="your phone number" id="phoneNumber">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>Password</label><input type="password" name="password" placeholder="password" id="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+                
+            </div>
+            <div class="form-control">
+                <label>Re enter password </label><input type="password" name="password2" placeholder="password"
+                    id="password2">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div>
+                <i class="fas fa-unlock-alt" id="key"  ></i>
+            </div>
+            <div>
+                <small id="pass">Get Password:</small>
+            </div><br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
